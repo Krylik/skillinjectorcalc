@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Skillpoint Injector Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="static/css/pure-min.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="static/css/main.css">
+        <link rel="stylesheet" href="static/css/font-awesome.min.css">
+        <!-- this is to override the stupid element that the highcharts theme creates, which doenst work with local files. -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Unica+One">
+    </head>
+
+    <body class="color-bg-brown">
+        <div class="page-wrap">
+            <div class="container">
+                <div class="pure-g">
+                    <div class="pure-u-1-4">
+                        <h2 style="margin-top: 13px;">Skillpoint Injector Calculator</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="error container" id="error" style="display: none;">
+                <!-- error messages go here -->
+                <span></span>
+                <i class="fa fa-times"></i>
+            </div>
+            <div class="container" id="calcdiv">
+                <!-- The chart goes in here -->
+            </div>
+        </div>
+        <!-- <div id="hidden-img-bucket" class="hidden-img-bucket">
+            <img id="hidden-img-bucket" src="" alt="">
+        </div> -->
+        <footer class="site-footer container">
+            <div style="float: right; text-align: right;">
+                <div class="donations">
+                    <a href="#">
+                        <span class="donation-info"><span>Thanks</span></span>
+                    </a>
+                </div>
+                Source on <a href="https://github.com/Krylik/skillinjectorcalc">github</a>.
+            </div>
+        </footer>
+    </body>
+    <script type="text/javascript" src="static/main.js?201602271800"></script>
+</html>

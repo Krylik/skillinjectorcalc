@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    color: #FFFFFF;
+    height: 100%;
+}
+
+a:visited {
+    color: #3185fc;
+}
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -30px;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+.site-footer, .page-wrap:after {
+    height: 30px;
+    font-size: 12px;
+}
+
+/* Overridee the pure-form legend font color */
+.pure-form legend {
+    color: inherit;
+}
+
+.container {
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.error {
+    background-color: #9d2727;
+    padding: 10px;
+    text-shadow: 1px 1px rgba(97, 101, 100, 0.62);
+    height: 36px;
+}
+
+.error span {
+    float: left;
+}
+
+.error i {
+    float: right;
+}
+
+.hidden-img-bucket {
+    display: none;
+}
+
+/* red */
+.color-fg-red{
+    color:#ff4d3d;
+}
+.color-bg-red{
+    background-color:#ff4d3d;
+}
+/* orange */
+.color-fg-orange{
+    color:#ff8432;
+}
+.color-bg-orange{
+    background-color:#ff8432;
+}
+/* blue */
+.color-fg-blue{
+    color:#3185fc;
+}
+.color-bg-blue{
+    background-color:#3185fc;
+}
+/* green */
+.color-fg-green{
+    color:#359162;
+}
+.color-bg-green{
+    background-color:#359162;
+}
+/* brown */
+.color-fg-brown{
+    color:#35281d;
+}
+.color-bg-brown{
+    background-color:#35281d;
+}
+
+.donations a span.donation-info span{
+    color: #6fb0e6;
+    text-decoration: underline;
+    content: 'Donations'
+}
+
+.donations:hover a span.donation-info span{
+    display: none;
+}
+
+.donations:hover a span.donation-info:after{
+    content: 'Donations can be made in game to Krylik Riga';
+}
